@@ -21,6 +21,12 @@ function Hero () {
 	}
 }
 
+$('.steve').click(function(){
+ 
+  $('.showStatus').html("You swing and miss.");
+  
+})
+
 
 function Enemy () {
 	this.strength = 10;
